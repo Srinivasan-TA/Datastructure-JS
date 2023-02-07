@@ -104,7 +104,8 @@ console.log(num1.slice(2,4))
 
 //sort
 let array=[1,3,5,2,4]
-console.log(array.sort())
+array.sort()
+console.log(array)
 
 //splice
 array.splice(2, 0, "hi", "hello");
