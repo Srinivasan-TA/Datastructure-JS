@@ -32,14 +32,12 @@ let arr2=["sachin","dhoni"];
 arr2.fill("dravid");
 console.log(arr2);
 //filter
-function checkAdult(age) {
+function checkA(age) {
     return age >= 18;
 }
-console.log(age.filter(checkAdult));
-//find
-console.log(age.find(checkAdult));
-//findIndex
-console.log(age.findIndex(checkAdult));
+console.log(age.filter(checkA));
+console.log(age.find(checkA));
+console.log(age.findIndex(checkA));
 //foreach
 arr.forEach(display)
 function display(arr)
