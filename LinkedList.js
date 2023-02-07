@@ -14,7 +14,7 @@ class LinkedList{
                     this.rootNode= new Node(value)
                     this.count++;
                 }else{
-                    var temp = this.rootNode;
+                    let temp = this.rootNode;
                     while(temp.nextNode != null){
                         temp = temp.nextNode;
                     }
@@ -23,11 +23,11 @@ class LinkedList{
             }
         
         addElement1(value, index){
-                var node=new Node(value)
-                var counter = 0;
-                var temp = this.rootNode;
-                var prev;
-                while(counter<index){
+                let node=new Node(value)
+                let counter = 0;
+                let temp = this.rootNode;
+                let prev;
+                let(counter<index){
                     prev=temp;
                     temp=temp.nextNode;
                     counter++;
@@ -38,9 +38,9 @@ class LinkedList{
         }
 
         removeElement1(index){
-            var temp =this.rootNode;
-            var prev;
-            var counter =0;
+            let temp =this.rootNode;
+            let prev;
+            let counter =0;
             while(counter<index){
                 prev=temp;
                 temp=temp.nextNode;
@@ -51,7 +51,7 @@ class LinkedList{
         }
         
         printElements(){
-            var temp = this.rootNode;
+            let temp = this.rootNode;
             if(temp == null){
                 console.log("Is empty!")
             }else{
