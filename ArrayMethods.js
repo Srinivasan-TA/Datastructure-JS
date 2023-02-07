@@ -88,7 +88,8 @@ function sub(x,y)
 }
 
 //reverse
-console.log(num1.reverse())
+num1.reverse()
+console.log(num1)
 
 //shift
 console.log(num1.shift())
