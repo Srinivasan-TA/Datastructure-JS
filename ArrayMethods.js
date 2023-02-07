@@ -12,7 +12,7 @@ console.log(text);
  //copywithin
 console.log("CopyWithin :"+ names.copyWithin(3,0));
 //entries()
-var x = names.entries();
+let x = names.entries();
 for(let y of x){
     console.log(y);
 }
