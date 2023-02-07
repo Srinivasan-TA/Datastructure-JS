@@ -15,7 +15,7 @@ class Stack{
             this.head=node;
         }
         else{
-        var current;
+        let current;
         current=this.head;
         while(current.next !=null){
             current=current.next;
