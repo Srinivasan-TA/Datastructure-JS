@@ -103,7 +103,7 @@ console.log(num1.slice(2,4))
 // console.log(arr.some(check))
 
 //sort
-let array=[1,3,5,2,4]
+let array=['n','a','x','t']
 array.sort()
 console.log(array)
 
