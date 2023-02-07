@@ -1,7 +1,7 @@
 //concat - joins two or more arrays in a single
-arr = ["adani","ambani"]
-arr1 = ["benstokes","billgates","chrisevans"]
-names = arr.concat(arr1);
+let arr = ["adani","ambani"]
+let arr1 = ["benstokes","billgates","chrisevans"]
+let names = arr.concat(arr1);
 console.log(names);
 
 //Constructor
@@ -13,7 +13,7 @@ console.log(text);
 console.log("CopyWithin :"+ names.copyWithin(3,0));
 //entries()
 var x = names.entries();
-for(var y of x){
+for(let y of x){
     console.log(y);
 }
 //every()
@@ -28,7 +28,7 @@ if (!check) {
     console.log("All members must be at least 18 years of age.")
 }
 //fill
-arr2=["sachin","dhoni"];
+let arr2=["sachin","dhoni"];
 arr2.fill("dravid");
 console.log(arr2);
 //filter
@@ -58,8 +58,8 @@ console.log(Array.isArray(arr));
 //join()
 console.log(arr.join(" and "));
 //keys()
-temp =arr2.keys()
-for (i of temp){
+let temp =arr2.keys()
+for (let i of temp){
     console.log(i)
 }
 //lastIndex()
@@ -75,7 +75,7 @@ console.log(numbers.pop());
 console.log(numbers.push(9));
 //
 //reduce
-num1=[2,4,5,7]
+let num1=[2,4,5,7]
 console.log(num1.reduce(mul))
 function mul(x,y)
 {
@@ -103,7 +103,7 @@ console.log(num1.slice(2,4))
 // console.log(arr.some(check))
 
 //sort
-array=[1,3,5,2,4]
+let array=[1,3,5,2,4]
 console.log(array.sort())
 
 //splice
@@ -118,9 +118,9 @@ array.unshift("good")
 console.log(num1)
 
 // //valueof
-var A = [ 'alice','bob','david'];
+let A = [ 'alice','bob','david'];
       
-var iterator = A.values();
+let iterator = A.values();
   
 console.log(iterator.next().value);
 console.log(iterator.next().value);
